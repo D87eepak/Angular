@@ -1,0 +1,15 @@
+.infra{
+    width: 1024px;
+    margin-left: 255px;
+    margin-top: 50px;
+    height: 21px;
+}
+.infra-span-text{
+    text-align: center;
+
+}
+.infra-inner-para-text{
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+}

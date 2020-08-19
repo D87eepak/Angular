@@ -1,0 +1,29 @@
+
+ <span class="infra-span-text"><h2> INFRASTRUCTURE</h2>
+
+    <h3> Sound Infrastrcture Equipped Company</h3>
+
+   <span > 
+       <p class="infra-inner-para-text">Infrastructure is the set of fundamental facilities and systems serving a country, city, or other area,[1] including the services and facilities necessary for its economy to function.[2] Infrastructure is composed of public and private physical structures such as roads, railways, bridges, tunnels, water supply, sewers, electrical grids, and telecommunications (including Internet connectivity and broadband speeds). In general, it has also been defined as "the physical components of interrelated systems providing commodities and services essential to enable, sustain, or enhance societal living conditions".[3]
+        San Francisco Ferry Building at night. There are two general types of ways to view infrastructure: hard and soft. Hard infrastructure refers to the physical networks necessary for the functioning of a modern industry.[4] This includes roads, bridges, railways, etc. Soft infrastructure refers to all the institutions that maintain the economic, health, social, and cultural standards of a country.[4] This includes educational programs, official statistics, parks and recreational facilities, law enforcement agencies, and emergency services.
+    </p>
+    </span>
+    </span>
+
+<div class="infra">
+   
+    <span *ngFor="let image of images;"  > 
+
+        <span><img src={{image.image}} width="250" height="233" alt={{image.image}} #imageUrl (click)="openDialog(imageUrl.alt)"></span> 
+       
+        
+    </span>  
+    
+</div>
+<!--<app-carousel [slides]="slides"></app-carousel>
+
+
+  
+
+--> 
+

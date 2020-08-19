@@ -1,0 +1,22 @@
+<h1> OUR PRODUCTS</h1>
+<span class="menu-spacer"></span>
+
+<h1></h1>
+<span class="menu-spacer"></span>
+<div class="mat-container">
+<mat-sidenav-container>
+      <mat-sidenav-content>
+             
+           <ul > 
+              <li  (click)="onSelect(slide.link)" *ngFor="let slide of products;" >
+               <span class="badge">{{slide.tag}}</span>
+              </li>
+              </ul>   
+              
+      </mat-sidenav-content>
+      
+</mat-sidenav-container>
+</div>
+<div>
+    <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,17 @@
+.product-display{
+margin-top: -185px;
+padding-left: 295px;
+}
+
+.column {
+    float: left;
+    width: 10%;
+    padding: 5px;
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

@@ -1,0 +1,27 @@
+<mat-toolbar class="tool-bar">
+
+     <mat-toolbar-row>
+    
+      <h1></h1>
+      <span class="menu-spacer"></span>
+      
+        <a [routerLink]="['/home']">
+        <img src="../assets/apple.jpg" width="50" height="33">
+
+      </a>
+ 
+      <div>
+     
+        <a *ngFor="let slide of tabs;" mat-button > 
+          <a  [routerLink]="[slide.link]" routerLinkActive="active">{{slide.tag}}</a>
+          
+        </a>    
+  
+      </div>
+    </mat-toolbar-row> 
+  
+    <mat-toolbar-row>
+        <span style="font-size: 12px;"></span>
+      </mat-toolbar-row>
+  </mat-toolbar>
+<router-outlet></router-outlet> 
